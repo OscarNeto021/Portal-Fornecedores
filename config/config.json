@@ -1,0 +1,13 @@
+{
+    "authenticationMode": "MasterUser",
+    "authorityUrl": "https://login.microsoftonline.com/",
+    "scopeBase": "https://analysis.windows.net/powerbi/api/.default",
+    "powerBiApiUrl": "https://api.powerbi.com/",
+    "clientId": "3c5abad0-b636-41aa-8f54-55bd0476bfb1",
+    "workspaceId": "f1cb2607-8e05-43f6-b309-c5ea59c5a98a",
+    "reportId": "ed93b364-2294-45c8-a0d4-6e9a181ace71",
+    "pbiUsername": "bi.varejo@reded1000.com.br",
+    "pbiPassword": "pH#tr@1R",
+    "clientSecret": "",
+    "tenantId": "25b01ded-bdbe-483f-9f13-3a33e59dc12c"
+}

@@ -1,0 +1,122 @@
+/* ========= */
+/* LOGIN */
+/* ========= */
+
+.container-hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/svg/FundoPortal.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .btn-microsoft {
+    color: #696969;
+    background: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.7px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+
+    margin: 0.6rem 0 0 0;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 600;
+    font-size: 11pt;
+    letter-spacing: 2px;
+
+}
+
+.btn-microsoft:active {
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+} */
+
+#logo-text-image {
+    width: 71%;
+}
+
+#linha-coral {
+    width: 15%;
+    padding-top: 1rem;
+}
+#message, #login-status {
+    color: black;
+  }
+
+.logo-text {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    width: 85%;
+
+}
+
+@media only screen and (max-width: 736px) {
+    .row {
+        flex-direction: column-reverse;
+        justify-content: first baseline;
+    }
+
+    .box {
+        display: 50%;
+        height: auto;
+    }
+
+    #logo-text-image {
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .logo-text h1 {
+        width: 450px;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        width: 100%;
+        padding: 3rem;
+        font-size: 30pt;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .logo-text {
+        width: auto;
+
+    }
+
+    p {
+        display: none;
+    }
+}
+

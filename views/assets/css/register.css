@@ -1,0 +1,186 @@
+
+
+/* ========= */
+/* TABLE */
+/* ========= */
+
+.table-list {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa-circle-user {
+    font-size: 35px;
+    text-align: center;
+}
+
+.fa-circle-user, .fa-pen-to-square, .fa-trash-can{
+    color: #ebaf23;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row-settings h2,
+.row-settings span {
+    color: #fff;
+}
+
+.table-list {
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.btn-user {
+    padding: 10px 50px 10px 50px !important;
+}
+
+.btn-new-user, .btn-save {
+    background: linear-gradient(90deg, #ebaf23 0%, #f06423 100%, #00d4ff 100%);
+    margin-right: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border: none !important;
+    padding: 10px 20px 10px 20px !important;
+}
+
+.btn-new-user:hover{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-new-user:active{
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 10px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: hidden !important;
+}
+
+
+tbody>tr {
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+}
+
+tbody tr a{
+    text-decoration: none;
+}
+
+thead th,
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.trashModal{
+    padding: 20px
+}
+
+.trashModal h3{
+    text-align: center;
+}
+
+/* ========= */
+/* FORM NEW USER */
+/* ========= */
+form{
+    padding: 10px;
+}
+
+.form-check ul {
+    width: 500px;
+}
+.form-check ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 45px;
+}
+
+
+input[type=checkbox]{
+    margin-right: 5px;
+    border: 1px solid #232629;
+}
+
+.form-check-input:focus {
+    border-color: #ebaf2359!important;
+    box-shadow: 0px 0px 10px 0px rgba(235,175,35,0.35)!important;
+
+}
+
+.form-check-input:checked{
+    background-color: #ebaf23!important;
+    border-color: #ebaf2359!important;
+}
+
+.tags-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.tags-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.tag {
+    background-color: #e2e3e5;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.tag button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+
+form .buttons, .trashModal .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cancel{
+    padding: 10px 20px 10px 20px !important;
+    margin-right: 20px;
+}
+
+
